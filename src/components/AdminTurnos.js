@@ -82,7 +82,6 @@ const AdminTurnos = () => {
                   
                   return (
                     <td
-                      style={{maxWidth: '30px'}}
                       key={hora}
                       className={`px-4 py-4 border border-gray-100 text-center cursor-pointer
                         ${turnoReservado ? 'bg-gray-300' : esSeleccionado ? 'bg-green-300' : 'bg-white hover:bg-green-100'}

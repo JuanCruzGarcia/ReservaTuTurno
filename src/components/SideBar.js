@@ -18,7 +18,7 @@ const Sidebar = () => {
       </div>
 
       {/* Sidebar */}
-      <div className={`fixed md:relative z-10 bg-gray-800 text-white h-screen w-64 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-300 ease-in-out`}>
+      <div className={`fixed md:relative z-10 bg-gray-800 pl-1 text-white h-screen w-64 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-300 ease-in-out`}>
         <h2 className="text-2xl font-semibold text-center py-6">Admin Panel</h2>
 
         <ul className="space-y-6">
